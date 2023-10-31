@@ -1,0 +1,31 @@
+.app {
+	background-color: black;
+}
+
+.app header img {
+	height: 100px;
+	margin-left: 50px;
+}
+
+.app .container {
+	margin: 0 0 40px 50px;
+}
+
+.app .container h2 {
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.app .container .movies-list {
+	display: flex;
+	overflow-x: auto;
+}
+
+.app .container .movies-list .movie {
+	width: 200px;
+}
+
+.movies-list::-webkit-scrollbar {
+	display: none;
+}

@@ -26,6 +26,10 @@
 	width: 200px;
 }
 
+.app .container .movies-list img {
+	height: 192px;
+}
+
 .movies-list::-webkit-scrollbar {
 	display: none;
 }

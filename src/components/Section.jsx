@@ -4,9 +4,9 @@ const Section = ({ categories, images }) => {
 			<h2>{categories}</h2>;
 			<div className="movies-list">
 				{images.map((image, index) => (
-					<li key={index}>
+					<div className="movie-img" key={index}>
 						<img src={image} alt="movie" />
-					</li>
+					</div>
 				))}
 			</div>
 		</div>
